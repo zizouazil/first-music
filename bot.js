@@ -44,7 +44,7 @@ bot.on("ready", async () => {
 
 });
 bot.on('message', function(message) {
-	const myID = "326131905743421440";
+	const myID = "452191687159185409";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
