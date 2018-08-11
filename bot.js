@@ -1,6 +1,6 @@
 var Discord = require("discord.js");
-var Config = require("./lib/config.json");
-var Module = require("./lib/module");
+var Config = require("./config.json");
+var Module = require("./module");
 
 var bot = new Discord.Client();
 bot.on('warn', (m) => console.log('[warn]', m));
