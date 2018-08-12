@@ -15,7 +15,7 @@ const bot = new Discord.Client({
 });
 
 let commandsList = fs.readFileSync('commands.md', 'utf8');
-
+// b5
 /* MUSIC VARIABLES */
 let queue = []; // Songs queue
 let songsQueue = []; // Song names stored for queue command
