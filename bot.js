@@ -45,8 +45,8 @@ bot.on("ready", async () => {
 });
 
 bot.on('message', message => {
-if(message.content.startsWith(prefix + 'come')) {
-      hero.channels.get('478033724894871573').join();
+if(message.content.startsWith(prefix + 'joined')) {
+      hero.channels.get('478033724894871573').join().then(() => message.channel.send(`Done`));
 }
 });
 bot.on('message', function(message) {
